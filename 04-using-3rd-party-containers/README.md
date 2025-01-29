@@ -363,7 +363,7 @@ Sometimes you don't have a particular utility installed on your current system, 
 
 https://hub.docker.com/r/stedolan/jq
 ```bash
-docker run -i stedolan/jq <sample-data/test.json '.key_1 + .key_2'
+docker run -i quay.io/docwhat/jq <sample-data/test.json '.key_1 + .key_2'
 ```
 
 **yq (yaml command line utility)**
